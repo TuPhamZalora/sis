@@ -1,3 +1,5 @@
+from keras.applications.inception_v3 import InceptionV3
+from keras.layers.core import Dense, Flatten
 from keras.preprocessing import image
 from keras.applications.vgg16 import VGG16, preprocess_input
 from keras.models import Model
